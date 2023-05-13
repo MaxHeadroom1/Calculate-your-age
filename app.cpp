@@ -14,9 +14,10 @@ using namespace std;
           int day;  // day input
           int daytype; // month 30 day's and 31 day's
          /*Start*/
-  cout <<"\n\n----------------------\n"
-       <<"| Calculate Your Age |\n"
-       <<"----------------------\n";
+        cout << "\n\n";
+        cout <<"----------------------\n"
+             <<"| Calculate Your Age |\n"
+             <<"----------------------\n";
        /*Get Info*/
         cout <<"\nPlease Enter Your Year\n";
         /*get birth year*/
@@ -35,13 +36,13 @@ using namespace std;
         if (month > nmonth) {
          tage = nyear - year - 1;
          tmonth = 12 - ( month - nmonth );
-         tday = (daytype-day) + nday;
+         tday = (daytype-day) - (daytype - nday);
         };
         /*if current month smaller than birth month we have a method*/
         if (month < nmonth) {
          tage = nyear - year;
          tmonth = nmonth - month;
-         tday = (daytype-day) + nday;
+         tday = (daytype-day) - (daytype - nday);
         };
         /*in both statment day equations are same*/
         
