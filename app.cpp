@@ -13,7 +13,7 @@ using namespace std;
           int month; // month input
           int day;  // day input
           int daytype; // month 30 day's and 31 day's
-         /*Stat*/
+         /*Start*/
   cout <<"\n\n----------------------\n"
        <<"| Calculate Your Age |\n"
        <<"----------------------\n";
